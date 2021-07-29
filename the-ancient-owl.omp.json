@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "session",
+          "style": "plain",
+          "foreground": "#e45757",
+          "properties": {
+            "display_host": false,
+            "prefix": "<#585858>╭─</>",
+            "postfix": "<#585858>@</><#c66e57>Lenovo</> <#585858>~</>"
+          }
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#917151",
+          "properties": {
+            "home_icon": "C:/Users/TheAncientOwl",
+            "postfix": "\n<#585858>╰─</><#a3c959>$</>"
+          }
+        }
+      ]
+    }
+  ],
+  "final_space": true
+}

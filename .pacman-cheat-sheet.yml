@@ -1,0 +1,9 @@
+update:    pacman -Syu
+
+search:    pacman -Ss  <keyword>
+install:   pacman -S   <package>
+uninstall: pacman -Rns <package>
+
+list-installed: pacman -Qe
+list-unneeded: pacman -Qdt
+remove-orphans: pacman -Qdtq | sudo pacman -Rns

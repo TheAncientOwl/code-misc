@@ -1,31 +1,103 @@
 {
-  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
-  "blocks": [
-    {
-      "type": "prompt",
-      "alignment": "left",
-      "segments": [
-        {
-          "type": "session",
-          "style": "plain",
-          "foreground": "#e45757",
-          "properties": {
-            "display_host": false,
-            "prefix": "<#585858>╭─</>",
-            "postfix": "<#585858>@</><#c66e57>Lenovo</> <#585858>~</>"
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "blocks": [
+      {
+        "type": "prompt",
+        "alignment": "left",
+        "segments": [
+          {
+            "type": "session",
+            "style": "plain",
+            "foreground": "#e45757",
+            "properties": {
+              "display_host": false,
+              "prefix": "<#585858>╭─</>",
+              "postfix": ""
+            }
+          },
+          {
+            "type": "text",
+            "style": "plain",
+            "properties": {
+              "text": "<#c66e57>Lenovo</>",
+              "prefix": "<#585858>@</>",
+              "postfix": " <#585858>~</> "
+            }
+          },
+          {
+            "type": "path",
+            "style": "plain",
+            "foreground": "#917151",
+            "properties": {
+              "style": "full",
+              "home_icon": "⚡",
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "type": "git",
+            "style": "plain",
+            "foreground": "#e45757",
+            "properties": {
+              "branch_icon": "",
+              "display_status": false,
+              "prefix": " <#585858>»</> <#c66e57>git</><#585858>:(</>",
+              "postfix": "<#585858>)</>"
+            }
           }
-        },
-        {
-          "type": "path",
-          "style": "plain",
-          "foreground": "#917151",
-          "properties": {
-            "home_icon": "⚡",
-            "postfix": "\n<#585858>╰─</><#a3c959>$</>"
+        ]
+      },
+      {
+        "type": "prompt",
+        "alignment": "right",
+        "segments": [
+          {
+            "type": "shell",
+            "style": "plain",
+            "foreground": "#c66e57",
+            "properties": {
+              "prefix": "",
+              "postfix": ""
+            }
+          },
+          {
+            "type": "root",
+            "style": "plain",
+            "foreground": "#e45757",
+            "properties": {
+              "prefix": " <#585858>as</> ",
+              "postfix": "",
+              "root_icon": "root"
+            }
+          },
+          {
+            "type": "time",
+            "style": "plain",
+            "foreground": "#689f38",
+            "properties": {
+              "prefix": " <#585858>|</> ",
+              "postfix": "",
+              "time_format": "15:04:05"
+            }
           }
-        }
-      ]
-    }
-  ],
-  "final_space": true
-}
+        ]
+      },
+      {
+        "type": "prompt",
+        "alignment": "left",
+        "segments": [
+          {
+            "type": "text",
+            "style": "plain",
+            "properties": {
+              "text": "\n<#585858>╰─</><#a3c959>$</>",
+              "prefix": "",
+              "postfix": ""
+            }
+          }
+        ]
+      }
+    ],
+    "final_space": true
+  }

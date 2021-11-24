@@ -10,8 +10,8 @@ function Start-App {
   
 }
 
-Start-App -AppName "Rainmeter" -AppPath "C:\Users\TheAncientOwl\Code\powershell\code-misc\cosmetics\Rainmeter.lnk"
-Start-App -AppName "ModernFlyoutsHost" -AppPath "C:\Users\TheAncientOwl\Code\powershell\code-misc\cosmetics\ModernFlyouts.lnk"
+Start-App -AppName "Rainmeter" -AppPath "C:\Users\TheAncientOwl\Code\code-misc\cosmetics\Rainmeter.lnk"
+Start-App -AppName "ModernFlyoutsHost" -AppPath "C:\Users\TheAncientOwl\Code\code-misc\cosmetics\ModernFlyouts.lnk"
 
 function Restart-App {
   param (
@@ -26,4 +26,4 @@ function Restart-App {
   Start-Process -FilePath $AppPath
 }
 
-Restart-App -AppName "TranslucentTB" -AppPath "C:\Users\TheAncientOwl\Code\powershell\code-misc\cosmetics\TranslucentTB.lnk"
+Restart-App -AppName "TranslucentTB" -AppPath "C:\Users\TheAncientOwl\Code\code-misc\cosmetics\TranslucentTB.lnk"

@@ -1,0 +1,54 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "blocks": [
+      {
+        "type": "prompt",
+        "alignment": "left",
+        "segments": [
+          {
+            "type": "text",
+            "style": "plain",
+            "foreground": "#86d130",
+            "properties": {
+              "text": "theancientowl@lenovo",
+              "prefix": "",
+              "postfix": "<#ffffff>:</>"
+            }
+          },
+          {
+            "type": "path",
+            "style": "plain",
+            "foreground": "#4660ab",
+            "properties": {
+              "style": "full",
+              "home_icon": "~",
+              "prefix": "",
+              "postfix": "<#ffffff>$</>",
+              "folder_separator_icon": "/"
+            }
+          }
+        ]
+      },
+      {
+        "type":"rprompt",
+        "alignment": "right",
+        "segments": [
+          {
+            "type": "git",
+            "style": "plain",
+            "foreground": "#86d130",
+            "properties": {
+              "branch_icon": "",
+              "display_stash_count": true,
+              "display_upstream_icon": true,
+              "display_status": true,
+              "stash_count_icon": "\uF692 ",
+              "prefix": "<#ffffff>(</>",
+              "postfix": "<#ffffff>)</>"
+            }
+          }
+        ]
+      }
+    ],
+    "final_space": true
+  }

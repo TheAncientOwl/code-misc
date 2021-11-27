@@ -26,4 +26,4 @@ function Restart-App {
   Start-Process -FilePath $AppPath
 }
 
-Restart-App -AppName "TranslucentTB" -AppPath "C:\Users\TheAncientOwl\Code\code-misc\cosmetics\powershell\TranslucentTB.lnk"
+Restart-App -AppName "TranslucentTB" -AppPath "C:\Users\TheAncientOwl\Code\code-misc\powershell\cosmetics\TranslucentTB.lnk"

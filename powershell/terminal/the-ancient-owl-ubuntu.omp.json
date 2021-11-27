@@ -8,14 +8,13 @@
     {
       "type": "prompt",
       "alignment": "left",
-      "vertical_offset": 1,
       "segments": [
         {
           "type": "os",
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
-          "foreground": "#fff",
-          "background": "#003543",
+          "foreground": "#ffffff",
+          "background": "#c386f1",
           "properties": {
             "prefix": " ",
             "windows": "\uE62A ",
@@ -26,8 +25,8 @@
           "type": "path",
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
-          "foreground": "#003544",
-          "background": "#0087D8",
+          "foreground": "#ffffff",
+          "background": "#ff479c",
           "properties": {
             "prefix": " \uE5FF ",
             "style": "full",
@@ -39,7 +38,7 @@
           "style": "powerline",
           "powerline_symbol": "",
           "foreground": "#193549",
-          "background": "#d2ff5e",
+          "background": "#fffb38",
           "properties": {
             "display_stash_count": true,
             "display_upstream_icon": true,
@@ -56,25 +55,40 @@
           "type": "time",
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
-          "foreground": "#fff",
-          "background": "#003543",
+          "foreground": "#ffffff",
+          "background": "#c386f1",
           "properties": {
             "prefix": "<#fff> \uf64f </>"
           }
         },
         {
           "type": "executiontime",
-          "style": "diamond",
+          "style": "powerline",
           "foreground": "#ffffff",
           "background": "#83769c",
+          "powerline_symbol": "\uE0B0",
+          "properties": {
+            "always_enabled": true,
+            "prefix": "\ufa1e",
+            "postfix": "\u2800"
+          }
+        },
+        {
+          "type": "exit",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#2e9599",
           "leading_diamond": "",
           "trailing_diamond": "",
           "properties": {
+            "display_exit_code": false,
             "always_enabled": true,
-            "prefix": " \ufa1e ",
-            "postfix": "\u2800"
+            "error_color": "#f1184c",
+            "color_background": true,
+            "prefix": " "
           }
         }
+       
       ]
     },
     {
